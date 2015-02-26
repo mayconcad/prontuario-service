@@ -20,6 +20,7 @@ public class UnidadeServiceImpl implements UnidadeService {
 	private UnidadeRepository unidadeRepository;
 
 	public Unidade salvar(Unidade entidade) {
+		entidade.setAtivo(true);
 		return unidadeRepository.save(entidade);
 	}
 
