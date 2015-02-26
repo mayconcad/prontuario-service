@@ -8,9 +8,9 @@ import javax.inject.Inject;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.Repasse;
-import br.com.sts.ddum.domain.entities.UnidadeContabil;
-import br.com.sts.ddum.domain.repository.interfaces.RepasseRepository;
+import br.com.sts.ddum.model.entities.Repasse;
+import br.com.sts.ddum.model.entities.UnidadeContabil;
+import br.com.sts.ddum.model.repository.interfaces.RepasseRepository;
 import br.com.sts.ddum.service.interfaces.RepasseService;
 
 @Transactional

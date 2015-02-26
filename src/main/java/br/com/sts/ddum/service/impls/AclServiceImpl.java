@@ -9,8 +9,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.AuthoritySystem;
-import br.com.sts.ddum.domain.repository.interfaces.AclRepository;
+import br.com.sts.ddum.model.entities.AuthoritySystem;
+import br.com.sts.ddum.model.repository.interfaces.AclRepository;
 import br.com.sts.ddum.service.interfaces.AclService;
 
 @Service

@@ -3,7 +3,7 @@ package br.com.sts.ddum.service.interfaces;
 import java.util.List;
 import java.util.Map;
 
-import br.com.sts.ddum.domain.entities.PrestacaoConta;
+import br.com.sts.ddum.model.entities.PrestacaoConta;
 
 public interface PrestacaoContaService extends GenericService<PrestacaoConta> {
 

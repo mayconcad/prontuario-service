@@ -8,8 +8,8 @@ import javax.inject.Inject;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.ParametroRepasse;
-import br.com.sts.ddum.domain.repository.interfaces.ParametroRepasseRepository;
+import br.com.sts.ddum.model.entities.ParametroRepasse;
+import br.com.sts.ddum.model.repository.interfaces.ParametroRepasseRepository;
 import br.com.sts.ddum.service.interfaces.ParametroRepasseService;
 
 @Transactional

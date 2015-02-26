@@ -12,7 +12,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 
-import br.com.sts.ddum.domain.springsecurity.entities.User;
+import br.com.sts.ddum.model.springsecurity.entities.User;
 
 @Component
 public class AuthenticationService {

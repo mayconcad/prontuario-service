@@ -15,9 +15,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.UserSystem;
-import br.com.sts.ddum.domain.repository.interfaces.UserRepository;
-import br.com.sts.ddum.domain.springsecurity.entities.User;
+import br.com.sts.ddum.model.entities.UserSystem;
+import br.com.sts.ddum.model.repository.interfaces.UserRepository;
+import br.com.sts.ddum.model.springsecurity.entities.User;
 import br.com.sts.ddum.service.interfaces.UserService;
 
 @Service("userServiceImpl")

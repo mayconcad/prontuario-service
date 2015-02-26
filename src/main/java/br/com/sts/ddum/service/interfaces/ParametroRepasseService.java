@@ -3,7 +3,7 @@ package br.com.sts.ddum.service.interfaces;
 import java.util.List;
 import java.util.Map;
 
-import br.com.sts.ddum.domain.entities.ParametroRepasse;
+import br.com.sts.ddum.model.entities.ParametroRepasse;
 
 public interface ParametroRepasseService extends
 		GenericService<ParametroRepasse> {

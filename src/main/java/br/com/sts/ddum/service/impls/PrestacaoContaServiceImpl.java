@@ -8,8 +8,8 @@ import javax.inject.Inject;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.PrestacaoConta;
-import br.com.sts.ddum.domain.repository.interfaces.PrestacaoContaRepository;
+import br.com.sts.ddum.model.entities.PrestacaoConta;
+import br.com.sts.ddum.model.repository.interfaces.PrestacaoContaRepository;
 import br.com.sts.ddum.service.interfaces.PrestacaoContaService;
 
 @Transactional

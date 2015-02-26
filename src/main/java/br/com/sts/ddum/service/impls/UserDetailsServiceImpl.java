@@ -14,8 +14,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
-import br.com.sts.ddum.domain.springsecurity.entities.Role;
-import br.com.sts.ddum.domain.springsecurity.entities.User;
+import br.com.sts.ddum.model.springsecurity.entities.Role;
+import br.com.sts.ddum.model.springsecurity.entities.User;
 
 @Component("userDetailsService")
 public class UserDetailsServiceImpl implements UserDetailsService {

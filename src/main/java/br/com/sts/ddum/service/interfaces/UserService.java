@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import br.com.sts.ddum.domain.entities.UserSystem;
-import br.com.sts.ddum.domain.springsecurity.entities.User;
+import br.com.sts.ddum.model.entities.UserSystem;
+import br.com.sts.ddum.model.springsecurity.entities.User;
 
 public interface UserService extends UserDetailsService {
 

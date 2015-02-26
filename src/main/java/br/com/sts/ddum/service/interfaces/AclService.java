@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;
 
-import br.com.sts.ddum.domain.entities.AuthoritySystem;
+import br.com.sts.ddum.model.entities.AuthoritySystem;
 
 public interface AclService {
 

@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.UnidadeContabil;
-import br.com.sts.ddum.domain.repository.interfaces.UnidadeContabilRepository;
+import br.com.sts.ddum.model.entities.UnidadeContabil;
+import br.com.sts.ddum.model.repository.interfaces.UnidadeContabilRepository;
 import br.com.sts.ddum.service.interfaces.UnidadeContabilService;
 
 @Transactional

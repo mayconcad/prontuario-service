@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.sts.ddum.domain.entities.Responsavel;
-import br.com.sts.ddum.domain.repository.interfaces.ResponsavelRepository;
+import br.com.sts.ddum.model.entities.Responsavel;
+import br.com.sts.ddum.model.repository.interfaces.ResponsavelRepository;
 import br.com.sts.ddum.service.interfaces.ResponsavelService;
 
 @Transactional
